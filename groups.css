@@ -99,7 +99,7 @@ nav ul li.btn.hide i:before{
 @media all and (max-width: 900px){
   nav{
     padding: 5px 30px;
-    width: 380px;
+    width: 376px;
   }
   nav ul li.items{
     width: 100%;
@@ -239,7 +239,7 @@ height: 40px;
  
 
   .content-footer {
-    width: 380px;
+    width: 376px;
       flex-wrap: wrap;
   }
   .bloc {
