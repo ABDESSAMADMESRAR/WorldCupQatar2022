@@ -100,12 +100,12 @@ nav ul li.btn.hide i:before{
 @media all and (max-width: 900px){
   body{
   background-image: url(pattern.png);
-  width: 102%;
+  width: 100%;
 
 }
   nav{
     padding: 5px 30px;
-    width: 102%;
+    width: 100%;
   }
   nav ul li.items{
     width: 100%;
@@ -245,7 +245,7 @@ height: 40px;
  
 
   .content-footer {
-    width: 101%;
+    width: 100%;
       flex-wrap: wrap;
   }
   .bloc {
