@@ -99,7 +99,7 @@ nav ul li.btn.hide i:before{
 @media all and (max-width: 900px){
   nav{
     padding: 5px 30px;
-    width: 378px;
+    width: 380px;
   }
   nav ul li.items{
     width: 100%;
