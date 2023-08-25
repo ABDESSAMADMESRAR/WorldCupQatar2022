@@ -241,8 +241,12 @@ height: 40px;
   align-items: center;
   font-size: 20px;
 }
-@media screen and (max-width: 1000px) {
- 
+@media all and (max-width: 900px) {
+  body{
+    background-image: url(pattern.png);
+    width: 100%;
+  
+  }
 
   .content-footer {
     width: 100%;
