@@ -8,6 +8,7 @@
 body{
   background-image: url(pattern.png);
 
+
 }
 .logo-header{
   position: absolute;
@@ -97,9 +98,14 @@ nav ul li.btn.hide i:before{
 }
 
 @media all and (max-width: 900px){
+  body{
+  background-image: url(pattern.png);
+  width: 102%;
+
+}
   nav{
     padding: 5px 30px;
-    width: 380px;
+    width: 102%;
   }
   nav ul li.items{
     width: 100%;
@@ -239,7 +245,7 @@ height: 40px;
  
 
   .content-footer {
-    width: 376px;
+    width: 101%;
       flex-wrap: wrap;
   }
   .bloc {
