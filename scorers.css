@@ -7,7 +7,8 @@
 }
 body{
   background-image: url(pattern.png);
- 
+
+
 }
 .logo-header{
   position: absolute;
@@ -96,10 +97,15 @@ nav ul li.btn.hide i:before{
   content: '\f00d';
 }
 
-@media  (min-width: 280px) and (max-width: 990px){
+@media all and (max-width: 900px){
+  body{
+  background-image: url(pattern.png);
+  width: 100%;
+
+}
   nav{
     padding: 5px 30px;
-    width: 140%;
+    width: 100%;
   }
   nav ul li.items{
     width: 100%;
@@ -120,7 +126,6 @@ nav ul li.btn.hide i:before{
   nav ul li.items:hover:after{
     opacity: 0;
   }
- 
   nav ul li.logo{
     flex: 1;
     color: white;
@@ -131,6 +136,7 @@ nav ul li.btn.hide i:before{
     text-transform: uppercase;
   }
 }
+
 footer {
   flex-shrink: 0;
  
@@ -235,14 +241,15 @@ height: 40px;
   align-items: center;
   font-size: 20px;
 }
-@media (min-width: 280px) and (max-width: 990px){
-  footer{
-    width: 140%;
-    height: 100%;
+@media all and (max-width: 900px) {
+  body{
+    background-image: url(pattern.png);
+    width: 100%;
+  
   }
 
   .content-footer {
-      max-width: 100%;
+    width: 100%;
       flex-wrap: wrap;
   }
   .bloc {
@@ -281,12 +288,8 @@ height: 40px;
 
 }
 
-@media screen and (max-width: 1000px) {
-  footer{
-    width: 140%;
-    height: 100%;
-  }
 
+@media screen and (max-width: 600px) {
   .content-footer {
       justify-content: center;
       padding-top: 30px;
