@@ -105,7 +105,7 @@ nav ul li.btn.hide i:before{
 }
   nav{
     padding: 5px 30px;
-    width: 100%;
+    width: 104%;
   }
   nav ul li.items{
     width: 100%;
@@ -140,7 +140,7 @@ nav ul li.btn.hide i:before{
 footer {
   flex-shrink: 0;
  
-  width: 100%;
+  width: 104%;
   
   background-image: url(pattern.png);
   background: #811538 !important;
