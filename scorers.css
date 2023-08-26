@@ -423,5 +423,9 @@ height: 40px;
   background-color: #811538 !important;
   color: white;
 }
-
+@media all and (max-width: 900px){
+  #customers {
+    margin-right: 10px;
+  }
+}
 
