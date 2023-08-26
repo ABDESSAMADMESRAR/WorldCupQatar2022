@@ -289,7 +289,7 @@ height: 40px;
 }
 
 
-@media screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   .content-footer {
       justify-content: center;
       padding-top: 30px;
@@ -425,12 +425,3 @@ height: 40px;
 }
 
 
-@media (min-width: 280px) and (max-width: 990px){
-  #customers{
-    margin-left: 10px;
-
-
-  }
-  
-
-}
