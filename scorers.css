@@ -105,7 +105,7 @@ nav ul li.btn.hide i:before{
 }
   nav{
     padding: 5px 30px;
-    width: 104%;
+    width: 106%;
   }
   nav ul li.items{
     width: 100%;
@@ -140,7 +140,7 @@ nav ul li.btn.hide i:before{
 footer {
   flex-shrink: 0;
  
-  width: 104%;
+  width: 106%;
   
   background-image: url(pattern.png);
   background: #811538 !important;
@@ -242,11 +242,8 @@ height: 40px;
   font-size: 20px;
 }
 @media all and (max-width: 900px) {
-  body{
-    background-image: url(pattern.png);
-    width: 100%;
+
   
-  }
 
   .content-footer {
     width: 100%;
