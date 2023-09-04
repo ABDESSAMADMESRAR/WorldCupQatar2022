@@ -12,24 +12,29 @@ body{
 }
 .logo-header{
   position: absolute;
-  z-index: 999;
+  position: fixed;
+  z-index: 1000;
   left: 10px ;
   top: 10px;
+
  
 }
 #logo-img{
   height: 100px;
   position: absolute;
- z-index: 999;
+ z-index: 1000;
  -webkit-filter: drop-shadow(5px 5px 30px #222);
  filter: drop-shadow(5px 5px 5px #666666);
 }
 
 nav{
   background-image: url(pattern.png);
-
   background: #811538 !important;
   padding: 5px 40px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+
 }
 
 nav ul{
