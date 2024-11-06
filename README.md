@@ -1,1 +1,1 @@
-![WorldCupQata](https://github.com/ABDESSAMADMESRAR/WorldCupQatar2022/assets/130689222/921054ed-a675-47f1-8266-1ec072192842)
+![WorldCupQatar2022](https://github.com/user-attachments/assets/bdb1559b-5fb1-4ee4-8c5f-4bd8dd880c6d)
